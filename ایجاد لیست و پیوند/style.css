@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Shabnam;
+    src: url('../../fonts/shabnam/Shabnam.eot');
+    src: url('../../fonts/shabnam/Shabnam.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/shabnam/Shabnam.woff2') format('woff2'),
+    url('../../fonts/shabnam/Shabnam.woff') format('woff'),
+    url('../../fonts/shabnam/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Shabnamb;
+    src: url('../../fonts/shabnam/Shabnam-Bold.eot');
+    src: url('../../fonts/shabnam/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/shabnam/Shabnam-Bold.woff2') format('woff2'),
+    url('../../fonts/shabnam/Shabnam-Bold.woff') format('woff'),
+    url('../../fonts/shabnam/Shabnam-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Shabnamt;
+    src: url('../../fonts/shabnam/Shabnam-Thin.eot');
+    src: url('../../fonts/shabnam/Shabnam-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/shabnam/Shabnam-Thin.woff2') format('woff2'),
+    url('../../fonts/shabnam/Shabnam-Thin.woff') format('woff'),
+    url('../../fonts/shabnam/Shabnam-Thin.ttf') format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Shabnaml;
+    src: url('../../fonts/shabnam/Shabnam-Light.eot');
+    src: url('../../fonts/shabnam/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/shabnam/Shabnam-Light.woff2') format('woff2'),
+    url('../../fonts/shabnam/Shabnam-Light.woff') format('woff'),
+    url('../../fonts/shabnam/Shabnam-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Shabnamm;
+    src: url('../../fonts/shabnam/Shabnam-Medium.eot');
+    src: url('../../fonts/shabnam/Shabnam-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/shabnam/Shabnam-Medium.woff2') format('woff2'),
+    url('../../fonts/shabnam/Shabnam-Medium.woff') format('woff'),
+    url('../../fonts/shabnam/Shabnam-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+body nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shabnamm', serif;
+    direction: rtl;
+    list-style-type: none;
+}
+header{
+    padding-right: 5rem;
+    font-family: Shabnam;
+    font-size: 3rem;
+}
+.line{
+    position: relative;
+    margin: 2rem;
+
+}
+.line a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5rem;
+}
+a:hover{
+    text-decoration: crimson ;
+    font-size: 2rem;
+    background-color: yellowgreen;
+    padding-right: 0.5rem;
+}
+.fa-solid{
+    position: absolute;
+    right: 0.5rem;
+    font-size: 1.6rem;
+}
