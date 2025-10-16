@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.list{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 8rem;
+    margin: 1rem;
+    position: fixed;
+}
+.line{
+    background-color: #dad7d7;
+}
+.line:hover{
+    background-color: #8c8181;
+    color: aqua;
+    border: dashed 0.5rem #49493f;
+}
