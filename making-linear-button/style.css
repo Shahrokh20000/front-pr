@@ -1,0 +1,25 @@
+.wrapper{
+    margin-left:40rem;
+    margin-top: 14rem;
+
+}
+button{
+    width: 10rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border-radius: 1rem;
+    display: block;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(45deg, #dae111, rgba(248, 121, 55, 0.62));
+    box-shadow: 0 -4rem 8rem 5px rgb(235 201 94 / 75%);
+    transition: 3s;
+}
+button:hover{
+    background-position: right center;
+    background-image: linear-gradient(to right,
+    #e16f11,
+    rgba(184, 248, 55, 0.62));
+    cursor: pointer;
+}
