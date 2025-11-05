@@ -1,0 +1,25 @@
+div>p , section p{
+    background-color: yellow;
+}
+div>p{
+    color: red;
+}
+div~p{
+    color: purple;
+}
+div+p{
+    font-size: 24px;
+}
+a[target="_blank"]{
+    text-decoration: none;
+    color: green;
+}
+span[class*="box"]{
+    height: 4rem;
+    width: 4rem;
+    padding: 2rem;
+    border: solid 1px green;
+    display: inline-block;
+    border-radius: 4.5rem;
+
+}
